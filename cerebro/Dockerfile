@@ -1,0 +1,3 @@
+ARG CEREBRO_VERSION=0.9.2
+
+FROM lmenezes/cerebro:${CEREBRO_VERSION}

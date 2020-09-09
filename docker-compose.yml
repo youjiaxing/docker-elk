@@ -7,6 +7,7 @@ services:
       args:
         ELK_VERSION: $ELK_VERSION
         INSTALL_ANALYSIS_ICU: $ELK_INSTALL_ANALYSIS_ICU
+        INSTALL_ANALYSIS_IK: $ELK_INSTALL_ANALYSIS_IK
     volumes:
       - type: bind
         source: ./elasticsearch/config/elasticsearch.yml
